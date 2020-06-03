@@ -3,6 +3,7 @@ For this project I used Python and Keras on top of TensorFlow and coded a simple
 
 Kaggle description -State Farm hopes to improve these alarming statistics, and better insure their customers, by testing whether dashboard cameras can automatically detect drivers engaging in distracted behaviors. Given a dataset of 2D dashboard camera images, State Farm is challenging Kagglers to classify each driver's behavior. Are they driving attentively, wearing their seatbelt, or taking a selfie with their friends in the backseat?
 
+# My CNN model info and results.
 Layer (type)                 Output Shape              Param #   
 
 =================================================================
@@ -43,7 +44,8 @@ Total params: 1,849,402
 Trainable params: 1,849,402
 Non-trainable params: 0
 
-# I did not use the full data set.
+I did not use the full data set.
+
 Train on 13509 samples, validate on 1501 samples
 Epoch 1/3
 13509/13509 [==============================] - 1727s 128ms/sample - loss: 1.1920 - acc: 0.5860 - val_loss: 0.2377 - val_acc: 0.9374
